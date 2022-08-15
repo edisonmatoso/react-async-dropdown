@@ -1,0 +1,9 @@
+.autocomplete-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.error {
+    color: #d46d66;
+    font-style: italic;
+}

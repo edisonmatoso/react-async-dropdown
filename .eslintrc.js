@@ -19,6 +19,9 @@ module.exports = {
   ],
   rules: {
     'react/react-in-jsx-scope': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off'
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    indent: ['error', 2],
+    '@typescript-eslint/strict-boolean-expressions': 'off',
+    'react/prop-types': 'off'
   }
 }
